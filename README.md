@@ -1,0 +1,2 @@
+# Scss-each_classImg
+Scssの@eachを使って画像名とクラス名をbackground-imageを使う際に同期するデモ
