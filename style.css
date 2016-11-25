@@ -1,0 +1,40 @@
+.matsuCard {
+  min-height: 320px;
+  width: 20%;
+  background-position: center;
+  background-image: url(matsu.jpg);
+}
+
+.bozuCard {
+  min-height: 320px;
+  width: 20%;
+  background-position: center;
+  background-image: url(bozu.jpg);
+}
+
+.sakuraCard {
+  min-height: 320px;
+  width: 20%;
+  background-position: center;
+  background-image: url(sakura.jpg);
+}
+
+.kiriCard {
+  min-height: 320px;
+  width: 20%;
+  background-position: center;
+  background-image: url(kiri.jpg);
+}
+
+.ameCard {
+  min-height: 320px;
+  width: 20%;
+  background-position: center;
+  background-image: url(ame.jpg);
+}
+
+.box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}

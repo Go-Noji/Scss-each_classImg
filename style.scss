@@ -1,0 +1,18 @@
+//画像名とクラス名の同期
+//画像名とクラス名を同じものにしておけば簡単にbackground-imageと同期できる例
+$hanahudas: 'matsu', 'bozu', 'sakura', 'kiri', 'ame';
+@mixin hanahuda{
+  min-height: 320px;
+  width: 20%;
+	background-position: center;
+}
+
+@each $hanahuda in $hanahudas{
+  .#{$hanahuda}Card{
+    @include hanahuda;
+    background-image: url(#{$hanahuda}.jpg);
+  }
+}
+.box{
+  display: flex;
+}
